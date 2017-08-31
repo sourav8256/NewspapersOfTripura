@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12025733342",
+    "firebase_url": "https://newspapertripura.firebaseio.com",
+    "project_id": "newspapertripura",
+    "storage_bucket": "newspapertripura.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12025733342:android:aaf65a00024c17f5",
+        "android_client_info": {
+          "package_name": "in.springpebbles.newspapertripura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12025733342-4q3o4dtvas57mejc0j1et458baimfu60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.springpebbles.newspapertripura",
+            "certificate_hash": "7643d971214cd98fa3b1c01e6d96b9dc697b589e"
+          }
+        },
+        {
+          "client_id": "12025733342-dhq3hb13q4u8jmi14u4bm091ut6kibih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr9-W_JMbPTAa4ZCwotwD_7e9pg6E45XM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12025733342-dhq3hb13q4u8jmi14u4bm091ut6kibih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

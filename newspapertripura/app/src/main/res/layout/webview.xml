@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+                <TextView
+                    android:id="@+id/visitSite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#3836c9"
+                    android:gravity="bottom"
+                    android:text="Visit Site"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="TextView"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="10sp" />
+
+
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView"
+                    android:layout_weight="1" />
+
+                <!--
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="nextButton"
+            android:text="Next Page"
+            android:layout_alignTop="@+id/button3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="previousButton"
+            android:text="Previous Page"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+            -->
+        </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fableft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:layout_margin="2dp"
+        android:onClick="previousButton"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/container"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="@drawable/ic_chevron_left_black_24dp"
+        app:useCompatPadding="true" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:onClick="shareButton"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/container"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/ic_share_black_24dp"
+        app:useCompatPadding="true" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:layout_margin="2dp"
+        android:onClick="nextButton"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/container"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+        app:useCompatPadding="true" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="top"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#082a60"
+        android:background="#abc3ea"
+        android:textSize="40dp"
+        android:layout_marginBottom="1dp"
+        android:text="Page List" />
+
+
+    <TextView
+        android:id="@+id/visitSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3836c9"
+        android:gravity="bottom"
+        android:text="Visit Site"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+
+    <ListView
+        android:id="@+id/mobile_list"
+        android:backgroundTint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="#c1ffe1">
+
+    </ListView>
+
+
+</LinearLayout>
